@@ -74,7 +74,7 @@ RUN source ~/.bash_profile
 ENV LC_ALL=POSIX               \
  LFS_TGT=x86_64-lfs-linux-gnu  \
  PATH=/tools/bin:/bin:/usr/bin \
- MAKEFLAGS="-j 1"
+ MAKEFLAGS="-j 16"
 
 # let's the party begin
 ENTRYPOINT [ "/tools/run-all.sh" ]
