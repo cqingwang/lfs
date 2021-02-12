@@ -12,7 +12,7 @@ ENV LFS=/mnt/lfs
 ENV LC_ALL=POSIX
 ENV LFS_TGT=x86_64-lfs-linux-gnu
 ENV PATH=/tools/bin:/bin:/usr/bin:/sbin:/usr/sbin
-ENV MAKEFLAGS="-j 1"
+ENV MAKEFLAGS="-j 16"
 
 # Defines how toolchain is fetched
 # 0 use LFS wget file
